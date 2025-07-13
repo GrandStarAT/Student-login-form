@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(bgimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Montserrat", initial sans-serif;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    top: 0.2vw;
+}
+
+.navcontiner {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    top: 1vw;
+}
+
+nav ul {
+    display: flex;
+    padding: 1vw;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 0 2vw;
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    font-size: 72px;
+    position: absolute;
+    top: 20%;
+    left: 24%;
+    color: rgba(80,79,175);
+    -webkit-text-stroke: 1px rgb(251 170 177);
+    text-shadow: 0px 5px 5px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.continer {
+    position: absolute;
+    width: 23rem;
+    height: 6rem;
+    padding: 5vw;
+    margin: 18px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border: 3px solid rgba(255, 255, 255, 0.308);
+    border-radius: 4rem;
+    top: 40%;
+    left: 28%;
+    justify-content: center;
+    align-items: center;
+    background-image: url(partical.gif);
+}
+
+p{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 26px;
+position: relative;
+top: -50px;
+left: 13vw;
+}
+
+button{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 31px;
+    width: 23rem;
+    height: 82px;
+    background-color: #504faf;
+    border: 9px solid black;
+    border-radius: 26px;
+    position: relative;
+    top: -50px;
+    padding: 0;
+    color: white;
+    text-shadow: 2px 3px 4px black;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #f70219;
+    color: #00b0d0;
+    border: 9px solid white;
+}
